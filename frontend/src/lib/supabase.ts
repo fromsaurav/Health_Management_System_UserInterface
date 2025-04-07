@@ -4,6 +4,10 @@ import { Database } from '../types/supabase';
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
 const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 
+console.log('Supabase URL:', import.meta.env.VITE_SUPABASE_URL);
+console.log('Supabase Anon Key:', import.meta.env.VITE_SUPABASE_ANON_KEY);
+
+
 export const supabase = createClient<Database>(supabaseUrl, supabaseAnonKey);
 
 export const signInWithEmail = async (email: string, password: string) => {

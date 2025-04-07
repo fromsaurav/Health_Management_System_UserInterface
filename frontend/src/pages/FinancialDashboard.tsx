@@ -1,4 +1,3 @@
-import React from 'react';
 import { Activity, DollarSign, TrendingUp, Users } from 'lucide-react';
 
 const FinancialDashboard = () => {

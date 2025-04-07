@@ -1,4 +1,3 @@
-import React from 'react';
 import { Users, Calendar, BedDouble, Mail, User, Search, Plus } from 'lucide-react';
 
 const PatientDashboard = () => {

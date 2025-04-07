@@ -1,4 +1,3 @@
-import React from 'react';
 import { UserCog, Clock, Building, Bell, Calendar, User, Users } from 'lucide-react';
 
 const StaffDashboard = () => {
